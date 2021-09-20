@@ -1,0 +1,104 @@
+body {
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  padding-top: 20px;
+}
+h1 {
+  margin-left: 10rem;
+  color: #000;
+  font-weight: 300;
+  padding-right: 17px;
+  padding-top: 10px;
+}
+
+h5{
+
+  color: rgb(228, 132, 22);
+  padding-bottom: 1rem;
+  margin-left: 23rem;
+  padding-top: 1.5rem;
+
+}
+
+h4 {
+  color: rgb(228, 132, 22);
+  padding-bottom: 1rem;
+  margin-left: 23rem;
+}
+
+input {
+  min-height: 50px;
+  min-width: 50px;
+  height: 50px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width:400px;
+  align-items: center;
+  border : 0.5px solid #8566;
+  margin-left: 30px !important;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  padding-left: 25px;
+}
+
+Button {
+  align-items: center;
+  min-height: 50px;
+  width: 80px;
+  border-radius: 8%;
+  border-color: transparent;
+  background-color:rgb(95, 0, 158);
+  color: #ffff;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.item {
+
+  width: 500px;
+  padding-left: 0px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  color: #2e2b31;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 25px;
+}
+
+.editdel{
+  float: left;
+  text-align: right;
+  padding-right: 5px;
+  nav-right: auto; 
+}
+
+.actions{
+text-align: right;
+align-items: right;
+
+}
+
+ol, ul {
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
